@@ -1,0 +1,57 @@
+:root{
+    --color-secondary: #34B0BE;
+}
+
+.portfolio{
+    margin: 5rem 0 5rem 0;
+    text-align: center;
+    width: 100%;
+}
+
+.portfolio-title{
+    color: var(--color-secondary);
+    font-size: 3rem;
+    font-size: 200;
+    margin: 5rem 0 5rem 0;
+}
+
+.portfolios{
+    display: flex;
+    justify-content: space-around;
+    height: 20rem;
+    padding: 0 1.5rem 0 1.5rem;
+}
+
+.portfolio-my-portfolio-1{
+    background: url(../../image/Rectangle\ 65.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 30%;
+}
+
+.portfolio-my-portfolio-2{
+    background: url(../../image/image\ 4.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 30%;
+}
+
+.portfolio-my-portfolio-3{
+    background: url(../../image/Rectangle\ 53.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 30%;
+}
+
+/* Media Queries */
+@media (max-width: 520px){
+
+    .portfolio-title{
+        font-size: 2rem;
+    }
+
+
+}

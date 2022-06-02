@@ -1,0 +1,78 @@
+:root{
+    --color-primary:#fff;
+    --color-secondary: #34B0BE;
+    --color-third: #D1CECA;
+    --color-banner: #2a2b3d;
+}
+
+.services{
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+}
+
+.services-title{
+    color: var(--color-secondary);
+    font-size: 3rem;
+    font-size: 200;
+    margin-bottom: 2rem;
+}
+
+.my-services{
+    background: url(../../image/Ellipse\ 14.svg);
+    background-color: var(--color-primary);
+    background-repeat: no-repeat;
+    background-position: center -2%;
+    background-size: contain;
+    border-radius: 0.2rem;
+    display: inline-block;
+    margin: 2rem;
+    width: 20%;
+}
+
+.my-services img{
+    margin: 3.2rem 0 1rem 0;
+}
+
+.my-services-title{
+    color: var(--color-banner);
+    font-size: 1.2rem;
+}
+
+.my-services-paragraph{
+    color: var(--color-third);
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 1rem 0 3rem 0;
+    padding: 1rem;
+}
+
+/* Media Queries */
+@media (max-width: 520px){
+    .services-title{
+        font-size: 2rem;
+        padding: 0 1rem 0 1rem;
+    }
+
+    .services{
+        width: 100%;
+    }
+
+    .services-my-services{
+        padding: 0 1rem 0 1rem;
+    }
+
+    .my-services{
+        background-position: center -15%;
+        display: block;
+        margin: 0 auto;
+        width: 60%;
+    }
+
+    .my-services-paragraph{
+        font-size: 1.2rem;
+        font-weight: 400;
+        line-height: 1.6;
+        padding: 1rem 1rem 3rem 1rem;       
+    }
+}

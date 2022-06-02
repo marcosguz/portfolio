@@ -1,0 +1,25 @@
+:root{
+    --color-primary:#fff;
+    --color-secondary: #34B0BE;
+    --color-third: #D1CECA;
+    --color-banner: #2a2b3d;
+}
+
+.footer{
+    background-color: var(--color-banner);
+    height: 10rem;
+    text-align: center;
+    width: 100%;
+}
+
+.footer-paragraph{
+    color: var(--color-secondary);
+    font-size: 1.3rem;
+    line-height: 1.6;
+    padding-top: 5%;
+}
+
+.love{
+    content: '\2665';
+	color: var(--color-secondary);
+}
