@@ -155,7 +155,7 @@
     }
 
     .my-services img{
-        margin-top: 4rem;
+        margin-top: 3rem;
         height: 6rem;
     }
 
@@ -164,7 +164,7 @@
     }
 
     .my-services{
-        background-position: center -5%;
+        background-position: center -1%;
         display: inline-block;
         justify-content: space-around;
         margin: 2rem;
@@ -200,11 +200,11 @@
     }
 
     .my-services{
-        background-position: center -5%;
+        background-position: center -7%;
         display: inline-block;
         justify-content: space-around;
         margin: 2rem;
-        width: 20%;
+        width: 25%;
     }
 
     .my-services-title{

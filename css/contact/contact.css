@@ -193,12 +193,14 @@
 
     .content-phone,
     .content-email{
+        background-position: center -30%;
         width: 45%;
     }
 }
 
 @media (min-width: 1200px){
 
+    
     .contact-content{
         margin: 0 20%;
     }
@@ -225,6 +227,7 @@
 
     .content-phone,
     .content-email{
-        width: 45%;
+        background-position: center -25%;
+        width: 35%;
     }
 }
