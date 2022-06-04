@@ -37,22 +37,31 @@
   </head>
   <body>
     <nav class="nav">
-      <div class="nav-container">
-        <label for="menu" class="nav-label">
+        <button class="nav-button" onclick="toogleMenu()">
           <img src="image/menu 1.svg" alt="menu" class="nav-img">
-        </label>
-        <input type="checkbox" id="menu" class="nav-input">
+        </button>
 
-        <div class="nav-menu">
-          <a class="nav-item active" href="index.html">Home</a>
-          <a class="nav-item" href="#services">Servicios</a>
-          <a class="nav-item" href="#about-me">Acerca de mí</a>
-          <a class="nav-item" href="#skills">Mis habilidades</a>
-          <a class="nav-item" href="#portfolio">Mi portafolio</a>
-          <a class="nav-item" href="#contact">Contacto</a>
-        </div>
+        <ul class="hidden" id="nav-menu">
+          <li class="item">
+            <a class="nav-item active" href="index.html" onclick="toogleMenu()">Home</a>
+          </li>
+          <li class="item">
+            <a class="nav-item" href="#services" onclick="toogleMenu()">Servicios</a>
+          </li>
+          <li class="item">
+            <a class="nav-item" href="#about-me" onclick="toogleMenu()">Acerca de mí</a>
+          </li>
+          <li class="item">
+            <a class="nav-item" href="#skills" onclick="toogleMenu()">Mis habilidades</a>
+          </li>
+          <li class="item">
+            <a class="nav-item" href="#portfolio" onclick="toogleMenu()">Mi portafolio</a>
+          </li>
+          <li class="item">
+            <a class="nav-item" href="#contact" onclick="toogleMenu()">Contacto</a>
+          </li>
+        </ul>
 
-      </div>
     </nav>
     <div class="banner">
       <div class="banner-content">
@@ -68,16 +77,22 @@
           <p class="title">experiencia</p>
           <div class="social">
             <div class="social-media">
-              <img src="image/cib_linkedin-in.svg" alt="Linkedin" />
+              <a href="https://www.linkedin.com/in/marcos-guzmán-nazareno-277161222" target="_blank">
+				<img src="image/cib_linkedin-in.svg" alt="Linkedin" />
+			  </a>
             </div>
             <div class="social-media">
-              <img
+              <a href="https://www.instagram.com/marcos_guz4/" target="_blank">
+				<img
                 src="image/ant-design_instagram-filled.svg"
                 alt="Instagram"
-              />
+              	/>
+			  </a>
             </div>
             <div class="social-media">
-              <img src="image/ant-design_twitter-outlined.svg" alt="Twitter" />
+              <a href="https://twitter.com/marccosgz" target="_blank">
+				<img src="image/ant-design_twitter-outlined.svg" alt="Twitter" />
+			  </a>
             </div>
           </div>
         </div>
@@ -100,12 +115,7 @@
       <section class="about-me">
         <h2 id="about-me" class="about-me-title">Acerca de mí</h2>
         <p class="about-me-paragraph">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem ipsa
-          quod minima perferendis pariatur itaque expedita perspiciatis minus
-          nisi quisquam sequi assumenda, vitae nam id laboriosam optio sint ex
-          eligendi consectetur adipisicing elit. Dolorem ipsa quod minima
-          perferendis pariatur itaque expedita perspiciatis minus nisi quisquam
-          sequi assumenda, vitae nam id laboriosam optio sint ex eligendi.
+          Soy apasionado por la tecnología e innovación en el área de TI, con una gran visión para solucionar problemas que se presentan día a día. 
         </p>
       </section>
 
@@ -169,12 +179,12 @@
 	  </section>
 
 	  <section class="portfolio">
-		<h2 id="portfolio" class="portfolio-title">Mis portafolios</h2>
-		<div class="portfolios">
-			<div class="portfolio-my-portfolio-1"></div>
-			<div class="portfolio-my-portfolio-2"></div>
-			<div class="portfolio-my-portfolio-3"></div>
-		</div>
+      <h2 id="portfolio" class="portfolio-title">Mis portafolios</h2>
+      <div class="portfolios">
+        <div class="portfolio-my-portfolio-1"></div>
+        <div class="portfolio-my-portfolio-2"></div>
+        <div class="portfolio-my-portfolio-3"></div>
+      </div>
 		</section>
 
 		<section class="contact">
@@ -206,5 +216,7 @@
 			Hecho con <span class="love">&#9829</span>  en Academlo
 		</p>
 	</footer>
+
+  <script src="js/index.js"></script>
   </body>
 </html>

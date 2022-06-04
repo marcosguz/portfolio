@@ -48,17 +48,25 @@
 }
 
 /* Media Queries */
-@media (max-width: 520px){
+@media (min-width: 400px){
     .services-title{
         font-size: 2rem;
+        margin-bottom: 3rem;
         padding: 0 1rem 0 1rem;
     }
 
     .services{
+        display: block;
         width: 100%;
     }
 
+    .my-services img{
+        height: 4rem;
+        margin-top: 2.5rem;
+    }
+
     .services-my-services{
+        width: 100%;
         padding: 0 1rem 0 1rem;
     }
 
@@ -76,3 +84,138 @@
         padding: 1rem 1rem 3rem 1rem;       
     }
 }
+
+@media (min-width: 576px){
+    .services-title{
+        font-size: 2rem;
+        margin-bottom: 3rem;
+        padding: 0 1rem 0 1rem;
+    }
+
+    .my-services img{
+        margin-top: 3.5rem;
+        height: 5rem;
+    }
+
+    .services-my-services{
+        padding: 0 1rem 0 1rem;
+    }
+
+    .my-services{
+        background-position: center -15%;
+        display: block;
+        margin: 0 auto;
+        width: 50%;
+    }
+
+    .my-services-paragraph{
+        font-size: 1.2rem;
+        font-weight: 400;
+        line-height: 1.6;
+        padding: 1rem 1rem 3rem 1rem;       
+    }
+}
+
+@media (min-width: 768px){
+    .services-title{
+        font-size: 2.5rem;
+        margin-bottom: 3rem;
+        padding: 0 1rem 0 1rem;
+    }
+
+    .my-services img{
+        margin-top: 3.5rem;
+        height: 6rem;
+    }
+
+    .services-my-services{
+        padding: 0 1rem 0 1rem;
+    }
+
+    .my-services{
+        background-position: center -15%;
+        display: block;
+        margin: 0 auto;
+        width: 40%;
+    }
+
+    .my-services-paragraph{
+        font-size: 1.2rem;
+        font-weight: 400;
+        line-height: 1.6;
+        padding: 1rem 1rem 3rem 1rem;       
+    }
+}
+
+@media (min-width: 992px){
+    .services-title{
+        font-size: 2.5rem;
+        margin-bottom: 3rem;
+        padding: 0 1rem 0 1rem;
+    }
+
+    .my-services img{
+        margin-top: 4rem;
+        height: 6rem;
+    }
+
+    .services-my-services{
+        padding: 0 1rem 0 1rem;
+    }
+
+    .my-services{
+        background-position: center -5%;
+        display: inline-block;
+        justify-content: space-around;
+        margin: 2rem;
+        width: 25%;
+    }
+
+    .my-services-title{
+        font-size: 1.2rem;
+    }
+
+    .my-services-paragraph{
+        font-size: 1.2rem;
+        font-weight: 400;
+        line-height: 1.6;
+        padding: 1rem 1rem 3rem 1rem;       
+    }
+}
+
+@media (min-width: 1200px){
+    .services-title{
+        font-size: 3rem;
+        margin-bottom: 3rem;
+        padding: 0 1rem 0 1rem;
+    }
+
+    .my-services img{
+        margin-top: 4rem;
+        height: 6rem;
+    }
+
+    .services-my-services{
+        padding: 0 1rem 0 1rem;
+    }
+
+    .my-services{
+        background-position: center -5%;
+        display: inline-block;
+        justify-content: space-around;
+        margin: 2rem;
+        width: 20%;
+    }
+
+    .my-services-title{
+        font-size: 1.2rem;
+    }
+
+    .my-services-paragraph{
+        font-size: 1.2rem;
+        font-weight: 400;
+        line-height: 1.6;
+        padding: 1rem 1rem 3rem 1rem;       
+    }
+}
+

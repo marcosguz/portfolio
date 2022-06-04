@@ -47,11 +47,81 @@
 }
 
 /* Media Queries */
-@media (max-width: 520px){
+@media (min-width: 400px){
 
     .portfolio-title{
         font-size: 2rem;
+        margin: 3rem;
     }
 
+    .portfolios{
+        display: block;
+    }
 
+    .portfolio-my-portfolio-1,
+    .portfolio-my-portfolio-2,
+    .portfolio-my-portfolio-3{
+        height: 15rem;
+        margin-bottom: 2rem;
+        width: 100%;
+    }
+}
+
+@media (min-width: 576px){
+
+    .portfolio-title{
+        font-size: 2rem;
+        margin: 3rem;
+    }
+
+    .portfolios{
+        display: block;
+    }
+
+    .portfolio-my-portfolio-1,
+    .portfolio-my-portfolio-2,
+    .portfolio-my-portfolio-3{
+        height: 15rem;
+        margin-bottom: 3rem;
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px){
+
+    .portfolio-title{
+        font-size: 2.5rem;
+        margin: 3rem;
+    }
+
+    .portfolios{
+        display: block;
+    }
+
+    .portfolio-my-portfolio-1,
+    .portfolio-my-portfolio-2,
+    .portfolio-my-portfolio-3{
+        height: 15rem;
+        margin-bottom: 3rem;
+        width: 100%;
+    }
+}
+
+@media (min-width: 992px){
+
+    .portfolio-title{
+        font-size: 2.5rem;
+        margin: 3rem 0 3rem 0;
+    }
+
+    .portfolios{
+        display: flex;
+    }
+
+    .portfolio-my-portfolio-1,
+    .portfolio-my-portfolio-2,
+    .portfolio-my-portfolio-3{
+        height: 15rem;
+        width: 100%;
+    }
 }

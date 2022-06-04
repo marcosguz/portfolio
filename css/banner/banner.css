@@ -89,6 +89,14 @@
     width: 3.8rem;
 }
 
+.social-media:hover{
+    background-color: var(--color-primary);
+}
+
+.social-media a{
+    margin: 0 auto;
+}
+
 .social-media img{
     display: block;
     height: 2rem;
@@ -114,6 +122,10 @@
     width: 20%;
 }
 
+.hobbies:hover{
+    background-color: var(--color-primary);
+}
+
 .hobbies:first-child{
     margin-left: 3rem;
 }
@@ -130,21 +142,21 @@
 }
 
 /* Media Queries */
-@media (max-width: 520px){
+@media (min-width: 400px){
     .banner-background{
-        height: 20rem;
-        width: 20rem;
+        height: 15rem;
+        width: 15rem;
     }
 
     .banner-hobbies{
-        height: 8rem;
+        height: 6rem;
         transform: translateY(-30%);
-        width: 90%;
+        width: 70%;
     }
 
     .hobbies{
         height: 50%;
-        width: 25%;
+        width: 20%;
     }
 
     .hobbies:first-child{
@@ -156,22 +168,22 @@
     }
 
     .hobbies img{
-        height: 3rem;
+        height: 2.5rem;
         margin: 0 auto;
-        padding-top: 1.1rem;
+        padding-top: .6rem;
     }
 
     .content-title,
     .content-name{
-        font-size: 2rem;
+        font-size: 1.3rem;
         margin-left: 0.8rem;
     }
 
     .content-subtitle, .subtitle{
         color: var(--color-primary);
-        font-size: 1rem;
+        font-size: .7rem;
         font-weight: 400;
-        margin: 3rem 0 0 0.8rem;
+        margin: 5rem 0 0 0.8rem;
     }
 
     .experiencie-title,
@@ -194,6 +206,275 @@
     .social-media img{
         display: block;
         height: 1rem;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 576px){
+    .banner-background{
+        height: 25rem;
+        width: 25rem;
+    }
+
+    .banner-hobbies{
+        height: 8rem;
+        transform: translateY(-40%);
+        width: 70%;
+    }
+
+    .hobbies{
+        height: 50%;
+        width: 20%;
+    }
+
+    .hobbies:first-child{
+        margin-left: 1rem;
+    }
+    
+    .hobbies:last-child{
+        margin-right: 1rem;
+    }
+
+    .hobbies img{
+        height: 3rem;
+        margin: 0 auto;
+        padding-top: 1.1rem;
+    }
+
+    .content-title,
+    .content-name{
+        font-size: 1.5rem;
+        margin-left: 1rem;
+    }
+
+    .content-subtitle, .subtitle{
+        color: var(--color-primary);
+        font-size: 1rem;
+        font-weight: 400;
+        margin: 9rem 0 0 1rem;
+    }
+
+    .experiencie-title,
+    .title{
+        font-size: 1.2rem;
+        font-weight: 400;
+        margin: 0.8rem;
+    }
+
+    .social-media{
+        align-items: center;
+        background-color: var(--color-third);
+        border-radius: 50%;
+        display: flex;
+        height: 3rem;
+        margin: 0.4rem;
+        width: 3rem;
+    }
+    
+    .social-media img{
+        display: block;
+        height: 1.3rem;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 768px){
+    .banner-background{
+        height: 30rem;
+        width: 30rem;
+    }
+
+    .banner-hobbies{
+        height: 8rem;
+        transform: translateY(-50%);
+        width: 70%;
+    }
+
+    .hobbies{
+        height: 50%;
+        width: 20%;
+    }
+
+    .hobbies:first-child{
+        margin-left: 1rem;
+    }
+    
+    .hobbies:last-child{
+        margin-right: 1rem;
+    }
+
+    .hobbies img{
+        height: 3rem;
+        margin: 0 auto;
+        padding-top: 1.1rem;
+    }
+
+    .content-title,
+    .content-name{
+        font-size: 2rem;
+        margin-left: 2rem;
+    }
+
+    .content-subtitle, .subtitle{
+        color: var(--color-primary);
+        font-size: 1.2rem;
+        font-weight: 400;
+        margin: 9rem 0 0 2rem;
+    }
+
+    .experiencie-title,
+    .title{
+        font-size: 2rem;
+        font-weight: 400;
+    }
+
+    .social-media{
+        align-items: center;
+        background-color: var(--color-third);
+        border-radius: 50%;
+        display: flex;
+        height: 3rem;
+        margin: 0.4rem;
+        width: 3rem;
+    }
+    
+    .social-media img{
+        display: block;
+        height: 1.3rem;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 992px){
+    .banner-background{
+        height: 40rem;
+        width: 40rem;
+    }
+
+    .banner-hobbies{
+        height: 10rem;
+        transform: translateY(-50%);
+        width: 65%;
+    }
+
+    .hobbies{
+        height: 50%;
+        width: 20%;
+    }
+
+    .hobbies:first-child{
+        margin-left: 1rem;
+    }
+    
+    .hobbies:last-child{
+        margin-right: 1rem;
+    }
+
+    .hobbies img{
+        height: 4rem;
+        margin: 0 auto;
+    }
+
+    .content-title,
+    .content-name{
+        font-size: 2.5rem;
+        margin-left: 3rem;
+    }
+
+    .content-subtitle, .subtitle{
+        color: var(--color-primary);
+        font-size: 2rem;
+        font-weight: 400;
+        margin: 17rem 0 0 3rem;
+    }
+
+    .experiencie-title,
+    .title{
+        font-size: 2.5rem;
+        font-weight: 400;
+        margin: 0.8rem;
+    }
+
+    .social-media{
+        align-items: center;
+        background-color: var(--color-third);
+        border-radius: 50%;
+        display: flex;
+        height: 4rem;
+        margin: .8rem;
+        width: 4rem;
+    }
+    
+    .social-media img{
+        display: block;
+        height: 2rem;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 1200px){
+    .banner-background{
+        height: 50rem;
+        width: 50rem;
+    }
+
+    .banner-hobbies{
+        height: 10rem;
+        transform: translateY(-50%);
+        width: 70%;
+    }
+
+    .hobbies{
+        height: 50%;
+        width: 15%;
+    }
+
+    .hobbies:first-child{
+        margin-left: 1rem;
+    }
+    
+    .hobbies:last-child{
+        margin-right: 1rem;
+    }
+
+    .hobbies img{
+        height: 4rem;
+        margin: 0 auto;
+    }
+
+    .content-title,
+    .content-name{
+        font-size: 4rem;
+        margin-left: 5rem;
+    }
+
+    .content-subtitle, .subtitle{
+        color: var(--color-primary);
+        font-size: 3rem;
+        font-weight: 400;
+        margin: 15rem 0 0 5rem;
+    }
+
+    .experiencie-title,
+    .title{
+        font-size: 3rem;
+        font-weight: 400;
+        margin: 0.8rem;
+    }
+
+    .social-media{
+        align-items: center;
+        background-color: var(--color-third);
+        border-radius: 50%;
+        display: flex;
+        height: 5rem;
+        margin: .7rem;
+        width: 5rem;
+    }
+    
+    .social-media img{
+        display: block;
+        height: 3rem;
         margin: 0 auto;
     }
 }
