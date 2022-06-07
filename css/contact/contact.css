@@ -75,7 +75,6 @@
     .contact-title{
         color: var(--color-secondary);
         font-size: 2rem;
-        margin-top: 35rem;
         margin-bottom: 3rem;
     }
     
@@ -103,12 +102,12 @@
 
     .contact{
         margin-bottom: 3rem;
+        margin-top: 1rem;
     }
 
     .contact-title{
         color: var(--color-secondary);
         font-size: 2rem;
-        margin-top: 35rem;
         margin-bottom: 3rem;
     }
     
@@ -135,13 +134,13 @@
 @media (min-width: 768px){
 
     .contact{
+        margin-top: 0.5rem;
         margin-bottom: 3rem;
     }
 
     .contact-title{
         color: var(--color-secondary);
         font-size: 2.5rem;
-        margin-top: 35rem;
         margin-bottom: 3rem;
     }
     
