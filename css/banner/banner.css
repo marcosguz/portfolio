@@ -13,10 +13,10 @@
 .banner-background{
     height: 40rem;
     border-radius: 50%;
-    background: url(https://imagenpng.com/wp-content/uploads/2015/09/imagenes-png.png);
-    background-position: center center;
+    background: url('/image/marcos.png');
+    background-position:center center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-color: var(--color-banner);
     padding: 3%;
     position: relative;
